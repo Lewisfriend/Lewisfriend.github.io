@@ -596,7 +596,6 @@ strong {
 @media screen and (max-width: 767px) {
   .sights-hover {
     padding: 15px; /* Reduce padding for smaller screens */
-    transform: translateY(0); /* Disable hover effect for touch devices */
     opacity: 1; /* Make content visible by default on small screens */
     max-height: 100%; /* Ensure it fits within the container */
     overflow-y: auto; /* Add scroll if content exceeds the container */
